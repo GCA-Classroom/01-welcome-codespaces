@@ -2,7 +2,7 @@
 document.getElementById('nameForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const name = document.getElementById('studentName').value;
-  document.querySelector('h1').textContent = `Welcome, ${name}!`;
+  document.querySelector('h1').textContent = `G'day, ${name}!`;
   const greeting = document.getElementById('greeting');
   greeting.textContent = `We're glad to have you here. 😄`;
   greeting.classList.remove('hidden');
